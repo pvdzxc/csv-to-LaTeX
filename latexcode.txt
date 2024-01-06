@@ -1,0 +1,17 @@
+\begin{table}[h]
+	\begin{adjustwidth}{-4cm}{}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+		%add your table's header here, below is sample header of 13 columns
+		\hline \multirow{2}{*}{Header 1} & \multirow{2}{*}{Header 2} & \multirow{2}{*}{Header 3} & \multirow{2}{*}{Header 4} & \multicolumn{3}{c|}{Header 5} & \multicolumn{3}{c|}{Header 6} & \multicolumn{3}{c|}{Header 7}\\
+		\cline{5-13}& & & &  sub 1 &  sub 2 &  sub 3 &  sub 4 &  sub 5 &  sub 6 &  sub 7 &  sub 8 &  sub 9 \\
+		\hline 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13\\
+		\hline a & b & c & d & e & f & g & h & i & k & l & m & n\\
+		\hline 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13\\
+		\hline a & b & c & d & e & f & g & h & i & k & l & m & n\\
+		\hline
+	\end{tabular}
+	\caption{}
+	\label{tab:example}
+	\end{adjustwidth}
+\end{table}
